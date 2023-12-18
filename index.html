@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author"
+        content="Abinandh MJ, Ayushi Yadav, Ashwini Kumar, Vaishnavi, Vinaydeep Ambati, Harshitha Reddy Gujja, Koppula Venkata Bharathi" />
+    <meta name="description"
+        content="A web-based Ludoking clone with multiplayer gameplay, real-time updates, and customization options. Join the fun with friends or random opponents!" />
+    <!-- Site title -->
+    <title>Ludo King™ - India's No.1 Online Board Game</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container nav-container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#media-section">Media</a></li>
+                <li><a href="#inventory-section">Inventory</a></li>
+                <li><a href="#review-section">Reviews </a></li>
+                <li><a href="#">Contact</a></li>
+                <a href="https://ludokinglive.com/" class="download-btn" target="_blank" rel="noopener noreferrer">Play
+                    Now</a>
+            </ul>
+            <h1 class="logo"><img src="assets\images\logo.png" height="35" alt="Logo"></h1>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+    <section id="hero-section">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                    checked="checked">
+                <div class="carousel-item">
+                    <img src="./assets/images/lk234.jpg">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="./assets/images/WebsiteBanner.jpg">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="./assets/images/lk234.jpg">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End-->
+
+    <!-- About Section -->
+    <section id="about-section">
+        <div class="about-grid-container">
+            <div class="about-column ludoking-poster">
+                <img src="./assets/images/left.png" alt="LudoKing Poster">
+            </div>
+            <div class="about-column details">
+                <h2>"The Most Popular Game Of The Year" - India Gaming Awards 2022! 800+ Million Global Downloads!
+                </h2>
+                <hr class="separator">
+                <p>Mega-hit Ludo King - the global revival of the classic Ludo board game. Ranked among the top played
+                    games on the internet with one of the largest online gaming communities on the internet!</p>
+                <div class="about-features-box">
+                    <ul>
+                        <li><i class="fa-solid fa-dice-six"></i>A record breaking casual
+                            game in the history of
+                            mobile
+                            gaming</li>
+                        <li><i class="fa-solid fa-dice-six"></i>Voice Chat, 6 Player Ludo,
+                            Quick Ludo mode,
+                            Tournaments, and many other exciting features!
+                        </li>
+                        <li><i class="fa-solid fa-dice-six"></i>Ranked among top Android
+                            games globally in 2020
+                        </li>
+                        <li><i class="fa-solid fa-dice-six"></i>No.1 game on App Store
+                            India in 2021</li>
+                        <li><i class="fa-solid fa-dice-six"></i>Among the world's TOP 10
+                            games by downloads</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Play Now For FREE!  Intersection-->
+        <div class="play-free-icons">
+            <h2>Play Now For FREE!</h2>
+            <div class="play-free-icons-images">
+                <center><a href="https://play.google.com/store/apps/details?id=com.ludo.king" target="_blank"><img
+                            src="./assets/images/Android_App_Store_200x60.png" alt="Andriod App Store"></a></center>
+                <center><a href="https://itunes.apple.com/app/id993090598" target="_blank"><img
+                            src="./assets/images/iOS_App_Store_200x60.png" alt="ios App Store"></a></center>
+                <center><a href="https://www.microsoft.com/en-us/p/ludo-king/9nblggh4sdhx" target="_blank"><img
+                            src="./assets/images/Win_Store_200x65.png" alt="Windows Store icon"></a></center>
+
+            </div>
+            <div class="centerfied-store">
+                <center><a href="https://appgallery.huawei.com/app/C100615369" target="_blank"><img
+                            src="./assets/images/newhua.png" alt="Huawei Store icon"></a></center>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="section_heading">
+            <h3 class="features-heading"><strong>AMAZING FEATURES</strong></h3>
+            <hr class="separator">
+            <p>
+                <font color="white">Ludo King's prominent features</font>
+            </p>
+        </div>
+        <section id="features-section">
+
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <div id="features-carousel">
+                <div class="item">
+                    <div class="icon">
+                        <i class="fa-regular fa-face-smile"></i>
+                    </div>
+                    <h3 class="item-title">Voice Chat</h3>
+                    <p class="item-para">
+                        Talk to each other while playing. Have fun with your family & friends
+                    </p>
+                    <img src="./assets/images/features/ludo.png" width="50%">
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3 class="item-title">Multiplayer</h3>
+                    <p class="item-para">
+                        Play with 5/6 players in the Online Multiplayer Mode.
+                    </p>
+                    <img src="./assets/images/features/classic.png" width="50%">
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <i class="fa-solid fa-gamepad"></i>
+
+                    </div>
+                    <h3 class="item-title">Quick Mode!</h3>
+                    <p class="item-para">
+                        A fast game to finish quickly with the fun of the full length
+                        multiplayer game!
+                    </p>
+                    <img src="./assets/images/features/multiplayer.png" width="50%">
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <i class="fa-brands fa-teamspeak"></i>
+                    </div>
+                    <h3 class="item-title">Team Up!</h3>
+                    <p class="item-para">
+                        Talk to each other while playing. Have fun with your family & friends
+                    </p>
+                    <img src="./assets/images/features/why_play_ludo.png" width="50%">
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <h3 class="item-title">Tournament Mode
+                    </h3>
+                    <p class="item-para">
+                        Exciting 8 Player game with
+                        6X winning rewards!
+                    </p>
+                    <img src="./assets/images/features/dice.jpeg" width="50%">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- Features Section -->
+
+    <!-- Media Section -->
+    <section id="media-section">
+        <a href="https://ludokinglive.com/" target="_blank" <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/googleplay.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/appstore.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/windowsstore.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/Play_CG_White.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/google.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/fb.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/gameforge-logo.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/craft.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/gametion.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/Play_CG_White.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/google.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/liveplaybrands/fb.png" height="100" width="250" alt="" />
+                </div>
+            </div>
+            </div>
+        </a>
+    </section>
+    <!-- Media Section End -->
+
+    <!-- Inventory Section -->
+    <section id="inventory-section">
+        <div class="inventory-content">
+            <h3><strong>Ludo King Exciting Inventory</strong></h3>
+            <hr class="separator">
+            <p>
+                <font>Get access to theme, new dices, funny emojis, voice notes, rewards & more!</font>
+            </p>
+        </div>
+
+        <center><iframe id="exciting-inventory-video" src="https://www.youtube.com/embed/vXWJkT_0Hx4" frameborder="0"
+                allowfullscreen></iframe></center>
+
+    </section>
+    <!-- Inventory Section End -->
+
+    <!-- Reviews Section -->
+    <section id="review-section">
+        <div class="main">
+            <h1><b>What People Are Saying About Ludo King</b></h1>
+            <hr class="separator">
+        </div>
+        <div class="page-box-container">
+            <!-- box-1----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Saket Gautam</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>"Love this app the new update of quick mode is amazing if you will download this you will just
+                        fall in love with ths app"</p>
+                </div>
+            </div>
+            <!-- box-2----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Imran AhmadJan </h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p> "5/6 player ludo is also one of best feature in ludo that we all 6 members played simultaneously
+                        in the same time."</p>
+                </div>
+            </div>
+            <!-- box-3----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Shibam Khadanga</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>"Really a marvelous game and the new themes are like the cherry in a chocolate cake"</p>
+                </div>
+            </div>
+            <!-- box-4----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Nikita Wadhwa</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p> "I love this game a lot because in this game u can play with friends in online or offline mode
+                        Thank u"</p>
+                </div>
+            </div>
+            <!-- box-5----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Shruthi</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>"I really appreciate the new feature of voice chat..totally loving it!" </p>
+                </div>
+            </div>
+            <!-- box-6----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Abhilasha Saini</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p> "This app is so amazing. Very lovely app. Guys please install this app to remove every tension
+                        of mind.."</p>
+                </div>
+            </div>
+            <!-- box-7----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Arif Khan</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p> "I like this game it's fun full"</p>
+                </div>
+            </div>
+            <!-- box-8----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Rakesh Bissa</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p> "This game is mind fabulous awesome No words to say..."</p>
+                </div>
+            </div>
+            <!-- box-9----- -->
+            <div class="page-box">
+                <div class="box-top">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>
+                            <h3>Alka K</h3>
+                        </span>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p> "This is good for family play and its also the best ludo"</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Reviews Section End -->
+
+    <!-- Contact Section -->
+    <footer class="footer">
+        <div class="section">
+            <span>Contact Us</span><br>
+            <span><a href="mailto:support@ludoking.com">support@ludoking.com</a></span>
+
+            <hr class="h">
+        </div>
+        <div class="social">
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+
+        <div class="lastsection">
+            <p>F.A.Q | Privacy Policy| Terms of Service &copy; 2023</p>
+            <div class="img">
+                <img src="./assets/images/gametion_logo.png" width="200px" alt="">
+            </div>
+        </div>
+    </footer>
+    <!-- Contact Section End -->
+
+
+</body>
+
+</html>
